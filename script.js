@@ -23,6 +23,11 @@ const Modal = {
         date: '23/01/2022'
     },
 ]
-    for (let inicial = 0; inicial < transaction.length; inicial++) {
+   /* for (let inicial = 0; inicial < transaction.length; inicial++) {
         console.log(transaction[inicial].description)     
+    }*/
+    let linha = 0;
+    while (linha < transaction.length) {
+        console.log(transaction[linha].description)
+        linha++; 
     }
